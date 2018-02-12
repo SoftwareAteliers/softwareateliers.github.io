@@ -9,6 +9,7 @@
     "grunt": "^1.0.2",
     "grunt-cli": "^1.2.0",
     "hexo": "^3.5.0",
+    "hexo-algoliasearch": "^0.2.3",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",

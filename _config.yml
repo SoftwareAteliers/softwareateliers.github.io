@@ -80,3 +80,20 @@ deploy:
   type: git
   repo: https://github.com/SoftwareAteliers/softwareateliers.github.io
   branch: master
+
+# Algolia Search API
+algolia:
+  appId: YNAS44MIFC
+  apiKey: 4286e96e5e4e2bec61dc5beea6a8a14c
+  adminApiKey: fded7d70eaab105869cfaf4566704135
+  chunkSize: 5000
+  indexName: software-ateliers-blog
+  fields:
+    - excerpt
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
